@@ -55,8 +55,6 @@ def greedy_cow_transport(cows,limit=10):
     trips
     """
     # TODO: Your code here
-            
-    limit = 10
   
     keys = list(cows.keys())
     keys = sorted(keys, key = cows.__getitem__, reverse = True)
